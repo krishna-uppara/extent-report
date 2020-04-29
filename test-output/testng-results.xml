@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="125" started-at="2017-03-25T11:32:25Z" finished-at="2017-03-25T11:32:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="125" started-at="2017-03-25T11:32:25Z" finished-at="2017-03-25T11:32:25Z">
+      <class name="ReportDemo">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:ReportDemo@7ac7a4e4]" name="beforeSuite" is-config="true" duration-ms="615" started-at="2017-03-25T17:02:25Z" finished-at="2017-03-25T17:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ReportDemo@7ac7a4e4]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2017-03-25T17:02:25Z" finished-at="2017-03-25T17:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ReportDemo.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:ReportDemo@7ac7a4e4]" name="login" duration-ms="15" started-at="2017-03-25T17:02:25Z" finished-at="2017-03-25T17:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ReportDemo@7ac7a4e4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-03-25T17:02:25Z" finished-at="2017-03-25T17:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=ReportDemo.login()[pri:0, instance:ReportDemo@7ac7a4e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ReportDemo@7ac7a4e4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-03-25T17:02:25Z" finished-at="2017-03-25T17:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ReportDemo.logout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="logout()[pri:0, instance:ReportDemo@7ac7a4e4]" name="logout" duration-ms="15" started-at="2017-03-25T17:02:25Z" finished-at="2017-03-25T17:02:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.fail(Assert.java:100)
+	at ReportDemo.logout(ReportDemo.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ReportDemo@7ac7a4e4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-03-25T17:02:25Z" finished-at="2017-03-25T17:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=FAILURE method=ReportDemo.logout()[pri:0, instance:ReportDemo@7ac7a4e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:ReportDemo@7ac7a4e4]" name="afterSuite" is-config="true" duration-ms="922" started-at="2017-03-25T17:02:25Z" finished-at="2017-03-25T17:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- ReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
